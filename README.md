@@ -13,6 +13,7 @@ Install with `npm install async-flattner`
 
 
 '''
+
 var flatten = require('async-flattner');
 
 var arr = [1,2,3,[4,5],7,[8,[9]]];
@@ -26,4 +27,5 @@ flatten(arr)
     });
 
 // program continues asynchronously
+
 '''
