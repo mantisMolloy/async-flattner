@@ -6,15 +6,13 @@ Will flatten a sparse array to flat list.
 
 Only works on positive indexed arrays, negative indexed elements in javascript are considered properties not elements of the array.
 
----
-
 ## Usage
 
 
 Install with `npm install async-flattner`
 
 
-'''javascript
+'''
 var flatten = require('async-flattner');
 
 var arr = [1,2,3,[4,5],7,[8,[9]]];
