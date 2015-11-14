@@ -1,6 +1,6 @@
 {
   "name": "async-flattner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flatten a nested array of ints",
   "main": "index.js",
   "scripts": {

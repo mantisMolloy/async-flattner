@@ -12,7 +12,7 @@ Only works on positive indexed arrays, negative indexed elements in javascript a
 Install with `npm install async-flattner`
 
 
-```javascript
+```
 var flatten = require('async-flattner');
 
 var arr = [1,2,3,[4,5],7,[8,[9]]];
