@@ -12,9 +12,16 @@ module.exports = function(arr, cb){
     }
 
     while(arr.length > 0) {
-        if (arr[0] && typeof arr[0] == 'number' && arr[0] % 1 == 0) {
+
+        //allow flattening of sparse arrays
+        if (arr[0] == undefined) {
+            arr.shift();
+            continue;
+        }
+
+        if (typeof arr[0] == 'number' && arr[0] % 1 == 0) {
             flattendList.push(arr.shift());
-        } else if (arr[0] && arr[0].constructor === Array) {
+        } else if (arr[0].constructor === Array) {
             arr = arr.shift().concat(arr);
         } else {
             deffered.reject("Illegal object found in the array. Only integers or arrays of integers are permitted.");
