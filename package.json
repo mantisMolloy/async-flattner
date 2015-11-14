@@ -1,0 +1,27 @@
+{
+  "name": "async-flattner",
+  "version": "1.0.0",
+  "description": "Flatten a nested array of ints",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "q": "~1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mantisMolloy/async-flattner.git"
+  },
+  "keywords": [
+    "int",
+    "flatten"
+  ],
+  "author": "Tom Molloy <tom.molloy4@mail.dcu.ie> (http://www.tommoll.com)",
+  "license": "ISC"
+}
