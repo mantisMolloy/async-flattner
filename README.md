@@ -6,6 +6,13 @@ Will flatten a sparse array to flat list.
 
 Only works on positive indexed arrays, negative indexed elements in javascript are considered properties not elements of the array.
 
+All logic contained in index.js.
+Tests contained in test/index.js.
+
+NPM page [here](https://www.npmjs.com/package/async-flattner)
+
+Try it out in your browser [here](https://tonicdev.com/npm/async-flattner)
+
 ## Usage
 
 
