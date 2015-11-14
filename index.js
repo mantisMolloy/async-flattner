@@ -1,5 +1,15 @@
 var Q = require('q');
 
+
+/**
+ * Choose to use an iterative approach to avoid stack overflow.
+ *
+ * The first element of the array is examined on each iteration. If the element is an array the contents of the array
+ * are added to the front of a new array :: remaining elements.
+ * @param arr
+ * @param cb
+ * @returns {*|promise}
+ */
 module.exports = function(arr, cb){
 
     var deffered = Q.defer();
