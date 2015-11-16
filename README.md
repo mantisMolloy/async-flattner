@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mantisMolloy/async-flattner.svg?branch=master)](https://travis-ci.org/mantisMolloy/async-flattner)
+[![Build Status](https://travis-ci.org/mantisMolloy/async-flattner.svg?branch=master)](https://travis-ci.org/mantisMolloy/async-flattner)    [![npm version](https://badge.fury.io/js/async-flattner.svg)](https://badge.fury.io/js/async-flattner)
 # Async-Flattner
 
 Node.js module which will flatten a multi-dimensional array of ints.
